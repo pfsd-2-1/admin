@@ -1,0 +1,12 @@
+<div id="side_bar">
+  	<ul>
+    	<li class="menu_head">Control Panel</li>
+        <li class="<?php if ($page == "add_staff") { echo 'activec';}?>"><a href="add_staff.php">Add Staff</a></li>
+        <li class="<?php if ($page == "view_staff") { echo 'activec';}?>"><a href="view_staff.php">View Staff</a></li>
+        <li class="<?php if ($page == "update_staff") { echo 'activec';}?>"><a href="search_staff_for_updation.php">Update Staff</a></li>
+        <li class="<?php if ($page == "delete_staff") { echo 'activec';}?>"><a href="search_staff_for_deletion.php">Delete Staff</a></li>
+    	<li class="<?php if ($page == "add_leave") { echo 'activec';}?>"><a href="add_leave.php">Add Leave Type</a></li>
+        <li class="<?php if ($page == "delete_leave") { echo 'activec';}?>"><a href="delete_leave_type.php">Delete Leave Type</a></li>
+        <li class="<?php if ($page == "program_coordinator") { echo 'activec';}?>"><a href="search_staff_to_assign_pc.php">Program Coordinator</a></li>
+    </ul>
+  </div>
